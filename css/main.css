@@ -176,9 +176,9 @@ section h2 {
 
 header.masthead {
   position: relative;
+  height: 100vh;
   width: 100%;
   padding-top: 150px;
-  padding-bottom: 100px;
   color: white;
   background: -webkit-linear-gradient(to right, #f8ac85, #e46b8a);
   background: linear-gradient(to right, #f8ac85, #e46b8a);
