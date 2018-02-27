@@ -40,15 +40,19 @@
     padding: 15px 45px;
 }
 
-$grid-breakpoints: (
-  xs: 0,
-  sm: 480px,
-  md: 768px,
-  lg: 1024px
-);
+#volunteer {
+    margin-left: 10px;
+}
 
-$container-max-widths: (
-  sm: 420px,
-  md: 720px,
-  lg: 960px
-);
+@media (max-width: 400px) {
+  #volunteer {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 370px) {
+  #volunteer {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+}

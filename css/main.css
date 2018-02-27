@@ -473,3 +473,20 @@ footer .tesc {
   font-size: 11px;
   padding: 15px 45px;
 }
+
+#volunteer {
+  margin-left: 10px;
+}
+
+@media (max-width: 400px) {
+  #volunteer {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 370px) {
+  #volunteer {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+}
