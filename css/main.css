@@ -195,6 +195,10 @@ header.masthead .header-content h1 {
 }
 
 header.masthead .logo {
+  width: 40%;
+}
+
+header.masthead .hack-text {
   width: 50%;
 }
 
