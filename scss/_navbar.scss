@@ -83,12 +83,18 @@
             }
         }
     }
-    @media (max-width: 768px) {
-        .logo-text-mobile {
-            width: 30%;
-        }
+    @media (max-width: 991px) {
         .logo-text {
             display: none;
         }
+        .logo-text-mobile {
+            width: 9rem;
+        }
+    }
+    @media (max-width: 600px) {
+        .logo-text-mobile {
+            width: 8rem;
+        }
+        
     }
 }

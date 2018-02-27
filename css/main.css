@@ -9,7 +9,7 @@ body {
 body {
   font-family: "Varela Round", Helvetica, sans-serif;
   color: #555F61;
-  line-height: 3rem;
+  line-height: 1.8rem;
 }
 
 a {
@@ -165,12 +165,18 @@ section h2 {
   }
 }
 
-@media (max-width: 768px) {
-  #mainNav .logo-text-mobile {
-    width: 30%;
-  }
+@media (max-width: 991px) {
   #mainNav .logo-text {
     display: none;
+  }
+  #mainNav .logo-text-mobile {
+    width: 9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #mainNav .logo-text-mobile {
+    width: 8rem;
   }
 }
 
@@ -262,6 +268,17 @@ section.about .badges .badge-link img {
 @media (min-width: 768px) {
   section.about h2 {
     font-size: 70px;
+  }
+}
+
+section.about .card {
+  border: none;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  section.about .card {
+    margin-bottom: 30px;
   }
 }
 

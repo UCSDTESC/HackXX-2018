@@ -25,4 +25,16 @@ section.about {
             font-size: 70px;
         }
     }
+
+    .card {
+        border: none;
+        margin-bottom: 0px;
+    }
+
+    @media (max-width: 768px) {
+        .card {
+            margin-bottom: 30px;
+        }
+
+    }
 }

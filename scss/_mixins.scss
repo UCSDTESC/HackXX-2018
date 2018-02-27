@@ -72,7 +72,7 @@
 @mixin body-font {
     font-family: $text_font;
     color: $text-primary;
-    line-height: 3rem;
+    line-height: 1.8rem;
 }
 
 @mixin alt-font {
