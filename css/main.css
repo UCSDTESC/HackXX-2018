@@ -85,9 +85,10 @@ section h2 {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 12px;
+  font-size: 18px;
   padding: 8px 10px;
-  color: #222222;
+  color: #ff7773;
+  border: none;
 }
 
 #mainNav .logo-text {
@@ -96,6 +97,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a {
   font-size: 11px;
+  text-align: center;
   font-family: "Varela Round", Helvetica, sans-serif;
   font-weight: 400;
   letter-spacing: 2px;
@@ -132,6 +134,9 @@ section h2 {
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
     color: white;
   }
+  #mainNav .logo-text-mobile {
+    display: none;
+  }
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
     color: rgba(255, 255, 255, 0.7);
@@ -161,6 +166,9 @@ section h2 {
 }
 
 @media (max-width: 768px) {
+  #mainNav .logo-text-mobile {
+    width: 30%;
+  }
   #mainNav .logo-text {
     display: none;
   }

@@ -13,9 +13,10 @@
         }
     }
     .navbar-toggler {
-        font-size: 12px;
+        font-size: 18px;
         padding: 8px 10px;
-        color: $gray-darker;
+        color: $orange;
+        border: none;
     }
     .logo-text {
         width:30%;
@@ -24,6 +25,7 @@
         > li {
             > a {
                 font-size: 11px;
+                text-align: center;
                 @include alt-font;
                 &.active {
                     color: $orange !important;
@@ -52,6 +54,9 @@
                 color: white;
             }
         }
+        .logo-text-mobile {
+            display:none;
+        }
         .navbar-nav > li > a,
         .navbar-nav > li > a:focus {
             color: fade-out(white, .3);
@@ -79,8 +84,11 @@
         }
     }
     @media (max-width: 768px) {
+        .logo-text-mobile {
+            width: 30%;
+        }
         .logo-text {
-            display:none;
+            display: none;
         }
     }
 }
