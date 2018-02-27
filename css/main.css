@@ -20,7 +20,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #e6e6e6;
+  color: #ff7773;
 }
 
 hr {
@@ -113,12 +113,12 @@ section h2 {
 
 #mainNav .navbar-nav > li > a,
 #mainNav .navbar-nav > li > a:focus {
-  color: #222222;
+  color: #ff7773;
 }
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #ffffff;
+  color: #ff7773;
 }
 
 @media (min-width: 992px) {
@@ -138,7 +138,7 @@ section h2 {
   }
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover {
-    color: white;
+    color: #ff7773;
   }
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
@@ -148,7 +148,7 @@ section h2 {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #ffffff;
+    color: #ff7773;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -156,7 +156,7 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #ffffff;
+    color: #ff7773;
   }
 }
 
@@ -429,7 +429,7 @@ footer .tesc {
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-  color: white;
+  color: #ff7773;
   border-color: #ffffff;
   background-color: #ffffff;
 }

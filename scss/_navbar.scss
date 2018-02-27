@@ -35,9 +35,9 @@
             }
             > a,
             > a:focus {
-                color: $gray-darker;
+                color: $orange;
                 &:hover {
-                    color: $theme-primary;
+                    color: $orange;
                 }
             }
         }
@@ -56,7 +56,7 @@
         .navbar-nav > li > a:focus {
             color: fade-out(white, .3);
             &:hover {
-                color: white;
+                color: $orange;
             }
         }
         &.navbar-shrink {
@@ -66,14 +66,14 @@
                 color: $gray-darker;
                 &:hover,
                 &:focus {
-                    color: $theme-primary;
+                    color: $orange;
                 }
             }
             .navbar-nav > li > a,
             .navbar-nav > li > a:focus {
                 color: $gray-darker;
                 &:hover {
-                    color: $theme-primary;
+                    color: $orange;
                 }
             }
         }
