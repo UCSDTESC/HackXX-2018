@@ -1,10 +1,9 @@
 // Styling for the footer
 footer {
-    padding: 100px;
+    padding: 60px;
     text-align: center;
     color: fade-out(white, .7);
-    background: -webkit-linear-gradient(to right, $theme-secondary, $theme-tertiary);
-    background: linear-gradient(to right, $theme-secondary, $theme-tertiary);
+    background: $theme-primary;
     p {
         font-size: 12px;
         margin: 0;

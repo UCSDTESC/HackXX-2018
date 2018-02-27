@@ -275,7 +275,7 @@ section.faq h1 {
 }
 
 section.faq .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 section.faq .section-heading p {
@@ -387,11 +387,10 @@ section.schedule .badges .badge-link img {
 }
 
 footer {
-  padding: 100px;
+  padding: 60px;
   text-align: center;
   color: rgba(255, 255, 255, 0.3);
-  background: -webkit-linear-gradient(to right, #f8ac85, #e46b8a);
-  background: linear-gradient(to right, #f8ac85, #e46b8a);
+  background: #ffffff;
 }
 
 footer p {
