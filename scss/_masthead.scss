@@ -30,7 +30,7 @@ header.masthead {
         position: absolute;
         bottom: -50px;
         right: -10px;
-        width: 60%;
+        width: 65%;
     }
     @media (min-width: 992px) {
         height: 100vh;
@@ -46,6 +46,10 @@ header.masthead {
     }
     @media (max-width: 1367px) {
         #women { width: 70%; bottom: -10px;}
+    }
+
+    @media (max-width: 1200px) {
+        #info-box {margin-left: -270px;}
     }
 
     @media (max-width: 1113px) {

@@ -215,7 +215,7 @@ header.masthead #women {
   position: absolute;
   bottom: -50px;
   right: -10px;
-  width: 60%;
+  width: 65%;
 }
 
 @media (min-width: 992px) {
@@ -237,6 +237,12 @@ header.masthead #women {
   header.masthead #women {
     width: 70%;
     bottom: -10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  header.masthead #info-box {
+    margin-left: -270px;
   }
 }
 
