@@ -186,8 +186,8 @@ header.masthead {
   width: 100%;
   padding-top: 150px;
   color: white;
-  background: url("../img/women.svg") no-repeat, -webkit-linear-gradient(to right, #f8ac85, #e46b8a);
-  background: url("../img/women.svg") no-repeat, linear-gradient(to right, #f8ac85, #e46b8a);
+  background: -webkit-linear-gradient(to right, #f8ac85, #e46b8a);
+  background: linear-gradient(to right, #f8ac85, #e46b8a);
   background-position: right bottom;
 }
 
@@ -201,8 +201,21 @@ header.masthead .header-content h1 {
   font-size: 30px;
 }
 
-header.masthead .logo {
-  width: 40%;
+header.masthead .hack-text {
+  width: 80%;
+}
+
+header.masthead #info-box {
+  z-index: 999;
+  margin-left: -80px;
+}
+
+header.masthead #women {
+  padding: 0 5px 10px 10px;
+  position: absolute;
+  bottom: -50px;
+  right: -10px;
+  width: 60%;
 }
 
 @media (min-width: 992px) {
@@ -220,10 +233,19 @@ header.masthead .logo {
   }
 }
 
+@media (max-width: 1367px) {
+  header.masthead #women {
+    width: 70%;
+    bottom: -10px;
+  }
+}
+
 @media (max-width: 1113px) {
-  header.masthead {
-    background: -webkit-linear-gradient(to right, #f8ac85, #e46b8a);
-    background: linear-gradient(to right, #f8ac85, #e46b8a);
+  header.masthead #info-box {
+    margin-left: 0px;
+  }
+  header.masthead #women {
+    display: none;
   }
 }
 

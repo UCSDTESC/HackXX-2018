@@ -6,8 +6,8 @@ header.masthead {
     padding-top: 150px;
 
     color: white;
-    background: url('../img/women.svg') no-repeat, -webkit-linear-gradient(to right, $theme-secondary, $theme-tertiary);
-    background: url('../img/women.svg') no-repeat, linear-gradient(to right, $theme-secondary, $theme-tertiary);
+    background: -webkit-linear-gradient(to right, $theme-secondary, $theme-tertiary);
+    background: linear-gradient(to right, $theme-secondary, $theme-tertiary);
     background-position: right bottom;
     .header-content {
         max-width: 500px;
@@ -18,8 +18,19 @@ header.masthead {
             font-size: 30px;
         }
     }
-    .logo {
-        width: 40%;
+    .hack-text {
+        width: 80%;
+    }
+    #info-box {
+        z-index: 999;
+        margin-left: -80px;
+    }
+    #women {
+        padding: 0 5px 10px 10px;
+        position: absolute;
+        bottom: -50px;
+        right: -10px;
+        width: 60%;
     }
     @media (min-width: 992px) {
         height: 100vh;
@@ -33,9 +44,12 @@ header.masthead {
             }
         }
     }
+    @media (max-width: 1367px) {
+        #women { width: 70%; bottom: -10px;}
+    }
 
     @media (max-width: 1113px) {
-        background: -webkit-linear-gradient(to right, $theme-secondary, $theme-tertiary);
-        background: linear-gradient(to right, $theme-secondary, $theme-tertiary);
+        #info-box {margin-left: 0px;}
+        #women { display: none;}
     }
 }
