@@ -186,8 +186,9 @@ header.masthead {
   width: 100%;
   padding-top: 150px;
   color: white;
-  background: -webkit-linear-gradient(to right, #f8ac85, #e46b8a);
-  background: linear-gradient(to right, #f8ac85, #e46b8a);
+  background: url("../img/women.svg") no-repeat, -webkit-linear-gradient(to right, #f8ac85, #e46b8a);
+  background: url("../img/women.svg") no-repeat, linear-gradient(to right, #f8ac85, #e46b8a);
+  background-position: right bottom;
 }
 
 header.masthead .header-content {
@@ -204,20 +205,6 @@ header.masthead .logo {
   width: 40%;
 }
 
-header.masthead .hack-text {
-  width: 50%;
-}
-
-header.masthead .device-container {
-  max-width: 325px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-header.masthead .device-container .screen img {
-  border-radius: 3px;
-}
-
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -231,8 +218,12 @@ header.masthead .device-container .screen img {
   header.masthead .header-content h1 {
     font-size: 50px;
   }
-  header.masthead .device-container {
-    max-width: 325px;
+}
+
+@media (max-width: 1113px) {
+  header.masthead {
+    background: -webkit-linear-gradient(to right, #f8ac85, #e46b8a);
+    background: linear-gradient(to right, #f8ac85, #e46b8a);
   }
 }
 

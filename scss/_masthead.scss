@@ -6,8 +6,9 @@ header.masthead {
     padding-top: 150px;
 
     color: white;
-    background: -webkit-linear-gradient(to right, $theme-secondary, $theme-tertiary);
-    background: linear-gradient(to right, $theme-secondary, $theme-tertiary);
+    background: url('../img/women.svg') no-repeat, -webkit-linear-gradient(to right, $theme-secondary, $theme-tertiary);
+    background: url('../img/women.svg') no-repeat, linear-gradient(to right, $theme-secondary, $theme-tertiary);
+    background-position: right bottom;
     .header-content {
         max-width: 500px;
         margin-bottom: 100px;
@@ -20,17 +21,6 @@ header.masthead {
     .logo {
         width: 40%;
     }
-    .hack-text {
-        width: 50%;
-    }
-    .device-container {
-        max-width: 325px;
-        margin-right: auto;
-        margin-left: auto;
-        .screen img {
-            border-radius: 3px;
-        }
-    }
     @media (min-width: 992px) {
         height: 100vh;
         min-height: 775px;
@@ -42,8 +32,10 @@ header.masthead {
                 font-size: 50px;
             }
         }
-        .device-container {
-            max-width: 325px;
-        }
+    }
+
+    @media (max-width: 1113px) {
+        background: -webkit-linear-gradient(to right, $theme-secondary, $theme-tertiary);
+        background: linear-gradient(to right, $theme-secondary, $theme-tertiary);
     }
 }
