@@ -40,6 +40,13 @@ section.faq {
       transition: 0.15s all ease-in-out;
     }
 
+    .contact {
+      color: $theme-primary;
+      padding-top: 40px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
     @media (max-width: 700px) {
        .panel-group .panel .panel-heading h5 a {
             font-size: 18px;
