@@ -4,7 +4,6 @@ html,
 body {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -212,10 +211,10 @@ header.masthead #info-box {
 }
 
 header.masthead #women {
-  padding: 0 5px 10px 10px;
+  padding: 0 0px 0px 0px;
   position: absolute;
   bottom: -50px;
-  right: -5px;
+  right: 0px;
   width: 65%;
 }
 
