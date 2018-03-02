@@ -43,7 +43,7 @@
 
 $(function () { 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) { 
+        if ($(this).scrollTop() > 100) { 
           $('.navbar .navbar-brand img').attr('src','img/logo_text_dark.svg');
             
         }

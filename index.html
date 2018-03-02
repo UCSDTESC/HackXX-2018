@@ -18,9 +18,7 @@
     <!-- Custom fonts for this template -->
     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
     <!-- Custom styles for this template -->
     <link href="css/main.min.css" rel="stylesheet">
@@ -57,14 +55,14 @@
       <div class="container h-100">
         <div class="row h-100">
           <div id="info-box" class="col-xs-12 col-md-12 col-lg-12 col-xl-6 my-auto">
-            <div class="header-content mx-auto">
+            <div class="header-content mx-auto wow slideInLeft">
                 <p><img class="hack-text img-fluid mb-3" src="img/hackathon.svg"></p>
                 <p>April 7th - April 8th<br>Qualcomm Room, Jacobs Hall</p>
                 <a href="https://www.tesc.events/register/hackxx" class="btn btn-outline btn-xl" id="register" role="button">Register</a><a href="https://tesc.typeform.com/to/ypWBFW" class="btn btn-outline btn-xl" id="volunteer" role="button">Volunteer</a>
             </div>
           </div>
         </div>
-        <img id="women" src="img/women.svg">
+        <img class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="1s" id="women" src="img/women.svg">
       </div>
     </header>
 
@@ -80,7 +78,7 @@
         
         <div class="row mt-5">
           <div class="col-sm-4 mx-auto">
-            <div class="card">
+            <div class="card wow fadeInUp">
               <div class="card-block">
                 <img class="mb-3" src="img/about-icon-idea.svg" width="90">
                 <p class="card-text">All majors are welcome to explore their ideas and passions! Wander through countless fields of interest.</p>
@@ -88,7 +86,7 @@
             </div>
           </div>
           <div class="col-sm-4 mx-auto">
-            <div class="card">
+            <div class="card wow fadeInUp" data-wow-delay="0.8s">
               <div class="card-block">
                 <img class="mb-3" src="img/about-icon-support.svg" width="90">
                 <p class="card-text">Form strong bonds by engaging with other women in tech and interacting with the engineering community.</p>
@@ -97,7 +95,7 @@
           </div>
 
           <div class="col-sm-4 mx-auto">
-            <div class="card">
+            <div class="card wow fadeInUp" data-wow-delay="1.2s">
               <div class="card-block">
                 <img class="mb-3" src="img/about-icon-stats.svg" width="90">
                 <p class="card-text">Women encompass 20% of all hackathon participants. We hope our safe space will foster growth & collaboration.</p>
@@ -115,11 +113,11 @@
     <section class="faq" id="faq">
       <div class="container">
         <div class="section-heading text-center">
-          <h1>Frequently Asked Questions</h1>
+          <h1 class="wow slideInUp">Frequently Asked Questions</h1>
         </div>
         <div class="row">
           <div class="col-lg-12 my-auto">
-            <div class="content">
+            <div class="content ">
               <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
                 <div class="panel panel-default">
@@ -246,6 +244,11 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/main.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  
+    <script>
+       new WOW().init();
+    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114981860-1"></script>
