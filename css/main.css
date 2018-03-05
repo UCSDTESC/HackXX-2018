@@ -409,38 +409,65 @@ section.faq .panel-group .panel + .panel {
   margin-top: 0;
 }
 
-section.schedule {
+section.sponsors {
   position: relative;
   padding: 150px 0;
 }
 
-section.schedule h2 {
+section.sponsors h2 {
   font-size: 50px;
   margin-top: 0;
 }
 
-section.schedule .badges .badge-link {
+section.sponsors .badges .badge-link {
   display: block;
   margin-bottom: 25px;
 }
 
-section.schedule .badges .badge-link:last-child {
+section.sponsors .badges .badge-link:last-child {
   margin-bottom: 0;
 }
 
-section.schedule .badges .badge-link img {
+section.sponsors .badges .badge-link img {
   height: 60px;
 }
 
 @media (min-width: 768px) {
-  section.schedule .badges .badge-link {
+  section.sponsors .badges .badge-link {
     display: inline-block;
     margin-bottom: 0;
   }
 }
 
+section.sponsors .s-padding {
+  padding: 10px 30px;
+}
+
+section.sponsors .zoom {
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+
+section.sponsors .zoom:hover {
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.2);
+}
+
 @media (min-width: 768px) {
-  section.schedule h2 {
+  section.sponsors h2 {
     font-size: 70px;
   }
 }
@@ -449,7 +476,8 @@ footer {
   padding: 60px;
   text-align: center;
   color: rgba(255, 255, 255, 0.3);
-  background: #ffffff;
+  background: -webkit-linear-gradient(to right, #f8ac85, #e46b8a);
+  background: linear-gradient(to right, #f8ac85, #e46b8a);
 }
 
 footer p {
