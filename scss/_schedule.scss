@@ -2,7 +2,32 @@ section.schedule {
     .container {
         padding: 0px 30px;
     }
+
+    @media (min-width: 400px) {
+        .container {
+            padding: 0px 30px;
+        }
+    }
+
+    @media (min-width: 830px) {
+        .container {
+            padding: 0px 200px;
+        }
+
+    }
     margin-top: -200px;
+
+    .table thead th {
+        color: $orange;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align:left;
+        padding: 1.5rem;
+        border-top: 1px solid $theme-secondary;
+        border-bottom: 1px solid $theme-secondary;
+    }
 
     .table td {
         padding: 1.5rem;
@@ -17,6 +42,8 @@ section.schedule {
       border-top: none;
       color: $theme-primary;
       vertical-align: middle;
+      padding: 1.5rem;
+      font-size: 1.2rem;
     }
 
     .no-border {
@@ -39,7 +66,9 @@ section.schedule {
         font-size: 0.9rem;
     }
 
-    .padding-fix {
-        padding-left: 0px;
+    .padding-fix>td {
+        color: $theme-primary;
+        background-color:$theme-primary;
+        border-top: $theme-primary 0px;
     }
 }

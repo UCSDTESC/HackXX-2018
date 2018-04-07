@@ -325,6 +325,30 @@ section.schedule .container {
   padding: 0px 30px;
 }
 
+@media (min-width: 400px) {
+  section.schedule .container {
+    padding: 0px 30px;
+  }
+}
+
+@media (min-width: 830px) {
+  section.schedule .container {
+    padding: 0px 200px;
+  }
+}
+
+section.schedule .table thead th {
+  color: #ff7773;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  padding: 1.5rem;
+  border-top: 1px solid #f8ac85;
+  border-bottom: 1px solid #f8ac85;
+}
+
 section.schedule .table td {
   padding: 1.5rem;
   text-align: left;
@@ -338,6 +362,8 @@ section.schedule .table-success > td {
   border-top: none;
   color: #ffffff;
   vertical-align: middle;
+  padding: 1.5rem;
+  font-size: 1.2rem;
 }
 
 section.schedule .no-border {
@@ -360,8 +386,10 @@ section.schedule .small-emoji {
   font-size: 0.9rem;
 }
 
-section.schedule .padding-fix {
-  padding-left: 0px;
+section.schedule .padding-fix > td {
+  color: #ffffff;
+  background-color: #ffffff;
+  border-top: #ffffff 0px;
 }
 
 section.faq {
