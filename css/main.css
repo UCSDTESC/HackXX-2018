@@ -317,6 +317,53 @@ section.about .card {
   }
 }
 
+section.schedule {
+  margin-top: -200px;
+}
+
+section.schedule .container {
+  padding: 0px 30px;
+}
+
+section.schedule .table td {
+  padding: 1.5rem;
+  text-align: left;
+  border-top: 1px dotted #eee;
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
+section.schedule .table-success > td {
+  background-color: #ff7773 !important;
+  border-top: none;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+section.schedule .no-border {
+  border-top: 0px solid #eee;
+}
+
+section.schedule .solid-border {
+  border-top: 1px solid #eee;
+}
+
+section.schedule .dotted-border {
+  border-top: 1px dotted #eee;
+}
+
+section.schedule .text-faded {
+  color: #ffc5c3;
+}
+
+section.schedule .small-emoji {
+  font-size: 0.9rem;
+}
+
+section.schedule .padding-fix {
+  padding-left: 0px;
+}
+
 section.faq {
   background: #ff7773;
 }
@@ -507,7 +554,7 @@ footer .tesc {
 }
 
 .text-muted {
-  color: #8f5985 !important;
+  color: #adadad !important;
 }
 
 .text-primary {
